@@ -9,10 +9,11 @@ print(lst[2:])  # If you want to print a value after certain index then it will 
 print(lst[2:4])  # If you want to print particular index
 
 lucky_numbers = [2, 4, 8, 16, 32, 64, 128]
-frnds = ["Alpha", "Beta", "Ghama", "Mike", "Johnson", "Zaid"]
+frnds = ["Alpha", "Beta", "Ghama", "Mike", "Johnson", "Zaid", "Zaid"]
 frnds.append("Zakir") # Add the new name into the frnds list.
 frnds.extend(lucky_numbers) # Add Lucky_numbers list ro frnds list and print
 print(frnds) # print Both the list together.
+print(frnds.count("Zaid")) # Count the same element and print the No
 frnds.insert(1, "Alphabets") # Insert new word in the index 1 and print
 print(frnds)
 frnds.remove("Alpha") # Remove the particular word from the given list
